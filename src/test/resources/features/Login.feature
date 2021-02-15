@@ -1,13 +1,18 @@
+@test1
+Feature: Cybertek Library login
+    As a user, I should be able to login .
 
-#Feature: Cybertek Library login
-#    As a user, I should be able to login .
-#
-#    Scenario: login as a librarian
-#      Given user is on login page
-#      When I login as librarian
-#      Then dashboard should be displayed
-#
-#    Scenario: login as a student
-#      Given user is on login page
-#      When I login as student
-#      Then dashboard should be displayed
+
+  Background:  Background:  User is already in login page
+    Given user is on login page
+
+
+
+    Scenario: login as a librarian
+      When user login as librarian
+      Then user librarian verifies that "Dshboard" page subtitle is displayed
+
+  Scenario: login as a student
+    When user login as student
+    Then user student verifies that "Dashboard" page subtitle is displayed
+
