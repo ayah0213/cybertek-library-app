@@ -2,7 +2,6 @@ package com.cybertek.library.step_definitions;
 
 
 import com.cybertek.library.pages.LoginWithParameters;
-import com.cybertek.library.utilities.ConfigurationReader;
 import com.cybertek.library.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

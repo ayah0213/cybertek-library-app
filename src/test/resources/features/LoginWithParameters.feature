@@ -24,7 +24,7 @@
       Then dashboard should be displayed
       And  there should be "2840" users
 
-
+@test3
 #      Task Scenarios should be done in 2 lines
       @librarian12_2
       Scenario: Login as librarian12 in one line
