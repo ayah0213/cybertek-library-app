@@ -6,10 +6,9 @@ Feature:  Search results
     And user login as librarian
     And user clicks on users link
     Then table should have following collumn name:
-
-    | Actions   |
-    | User ID   |
-    | Full Nmae |
-    | Email     |
-    | Group     |
-    | Status    |
+      | Actions   |
+      | User ID   |
+      | Full Name |
+      | Email     |
+      | Group     |
+      | Status    |

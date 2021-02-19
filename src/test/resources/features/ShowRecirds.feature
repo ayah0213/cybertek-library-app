@@ -8,7 +8,7 @@
     Scenario: Login as librarian to show records
       When user clicks on users link
       Then show records should be value of 10
-      And show record should have following options:
+      And show record should have following numbers
       |5  |
       |10 |
       |15 |
@@ -16,3 +16,5 @@
       |100|
       |200|
       |500|
+
+

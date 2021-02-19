@@ -14,6 +14,8 @@ public class Login_StepDefinitions2 {
     public void user_should_be_able_to_login_as(String string) {
         System.out.println("login as librarian11");
         login.UsernamePasswordInputMethod(string);
+        login.userInputName.sendKeys("clal");
+        login.clickButton();
     }
     @When("librarian11 clicks teh sign in button")
     public void librarian11_clicks_teh_sign_in_button() {

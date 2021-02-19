@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.List;
+
 public class Search_Result_Page {
 
     public Search_Result_Page() {
@@ -13,5 +15,9 @@ public class Search_Result_Page {
     }
 
     @FindBy(xpath = "//th")
-    public WebElement result;
+    public List<WebElement> columns;
+
+
+
+
 }
